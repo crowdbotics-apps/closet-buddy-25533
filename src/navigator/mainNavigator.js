@@ -5,6 +5,7 @@ import { NavigationContainer } from "@react-navigation/native"
 import SplashScreen from "../features/SplashScreen"
 import SideMenu from "./sideMenu"
 //@BlueprintImportInsertion
+import Settings222717Navigator from '../features/Settings222717/navigator';
 import SignIn2222715Navigator from '../features/SignIn2222715/navigator';
 import BlankScreen0222712Navigator from '../features/BlankScreen0222712/navigator';
 
@@ -14,6 +15,7 @@ import BlankScreen0222712Navigator from '../features/BlankScreen0222712/navigato
 
 const AppNavigator = {
   //@BlueprintNavigationInsertion
+Settings222717: { screen: Settings222717Navigator },
 SignIn2222715: { screen: SignIn2222715Navigator },
 BlankScreen0222712: { screen: BlankScreen0222712Navigator },
 
